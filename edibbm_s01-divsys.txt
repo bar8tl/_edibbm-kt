@@ -1,0 +1,21 @@
+┌──────────┬─────────────┬─────────────────────────┬─────┬─────┬─────┬─────────────────┐
+│ DIVISION │ SUBDIVISION │ DESCRIPTION             │ MFG │ SD  │ FI  │ RBNA PLANTS /   │
+│          │             │                         │ SAP │ SAP │ SAP │ DISTR CENTERS   │
+├──────────┼─────────────┼─────────────────────────┼─────┼─────┼─────┼─────────────────┤
+│   BBM    │     DS      │ Diesel Systems          │ P97 │ POE │ POE │ ChP             │
+│          │     AE      │ Automotive Electronics  │ P72 │ POE │ POE │ AdP, JuP        │
+│          │     GS      │ Gasoline Systems        │ P81 │ POE │ POE │ ChP, SlpP       │
+│          │    CC/CB    │ Braking Systems         │ P99 │ POE │ POE │ AguP            │
+│          │     ED      │ Electric Drive          │ P79 │ POE │ POE │ TlP             │
+│          │     AS      │ Automotive Steering     │ POE │ POE │ POE │ QueP            │
+├──────────┼─────────────┼─────────────────────────┼─────┼─────┼─────┼─────────────────┤
+│   ATMO   │             │ Machinery and Equipment │     │ P48 │     │                 │
+├──────────┼─────────────┼─────────────────────────┼─────┼─────┼─────┼─────────────────┤
+│ Trading  │             │                         │     │     │     │                 │
+│ Divisions│             │                         │     │     │     │                 │
+│   AA     │             │ Automotive Aftermarket  │     │ P79 │     │ MtpP, SMO       │
+│   BT     │             │ Security Systems        │     │ PC4 │     │ SMO             │
+│   PT     │             │ Power Tools             │     │ P13 │     │ MtpP, MexP, SMO │
+│   TT     │             │ Termo Technology        │     │ PTW │     │ SMO             │
+│   CM     │             │ Car Media               │     │ POE │     │ SMO             │
+└──────────┴─────────────┴─────────────────────────┴─────┴─────┴─────┴─────────────────┘

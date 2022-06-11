@@ -1,0 +1,34 @@
+RBNA EDI Mapping Specifications
+June 2022
+
+BBM SD RBNA 
+KT Sessions Slides
+
+*
+: -------------------------------------------------------------------09/06/2022-
+
+*Important*Links*
+
+*1.*EDI*Customer*Requests* - Track & Release assigned tasks
+.link https://rb-tracker.bosch.com/tracker-req-mgmt/issues/?filter=-1
+
+*2.*UBK*EDI*Cust*Requests* - Documentation central shared folder
+.link https://sites.inside-share.bosch.com/sites/000406/default.aspx
+
+*3.*KT-Materials* - Storage of material used during KT Sessions
+https://github.com/bar8tl/_edibbm-kt
+
+Notes:
+In link 2, select the view _"EDI_RBNA"_ to select RBNA mapping specs archived
+
+*
+*Divisions*and*Systems*
+.code edibbm_divsys.txt
+
+*
+*Maquiladora*and*MLB*at*BBM-SAP-SD* _(1/2)_
+.image edibbm_maquiladora.gif 600 991
+
+*
+*Maquiladora*and*MLB*at*BBM-SAP-SD* _(2/2)_
+.image edibbm_mlb.gif 450 900
