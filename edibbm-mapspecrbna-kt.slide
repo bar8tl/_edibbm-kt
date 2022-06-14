@@ -5,8 +5,77 @@ BBM SD RBNA
 KT Sessions Slides
 
 *
-: -------------------------------------------------------------------09/06/2022-
+: -------------------------------------------------------------------13/06/2022-
+*SESSION*2*
+*EDI*Standards*and*messages* _(1/2)_
+*Standard*ANSI*X12*
 
+  830  Planning Schedule with Release Capability
+  862  Shipping Schedule
+  850  Purchase Order
+  860  Purchase Order Change Request
+  810  Invoice
+  812  Credit/Debit Adjustment
+  820  Payment Order and Remittance Advice
+  824  Application Advice
+  846  Inventory Inquiry
+
+  856  Advanced Shipping Notice
+
+*
+*EDI*Standards*and*messages* _(2/2)_
+*Standard*EDIFACT*
+
+  DELFOR  Delivery Shedule and Forecast
+  DELJIT  Delivery Just-In-Time
+  ORDERS  Purchase Orders
+  ORDCHG  Order Change Request
+  INVOIC  Invoice
+  APERAK  Application Error And Acknowledgment
+  CONTRL  Functional Acknowledgment  
+  INVRPT  Inventory Report (Warehouse Stock Confirmation)
+  RECADV  Receiving Advice
+
+  DESADV  Despatch Advice
+
+*
+*SAP*IDOC*Types*
+
+  delfor02               Delivery Schedule/JIT Schedule
+  delvry03               Delivery interface for INVRPT (WHSCON)
+  delvry05               Delivery interface for DESADV
+  delvry07               Delivery interface for ASN
+  orders01               Purchasing/Sales
+  seqjit03               JIT: IDoc for JIT Calls (SumJC, SeqJC) as of DI4.7
+  systat01               CA-EDI: Transfer from status records
+  /rb04/yp3_invoic02_cu  Extension for EDI
+
+  email                  email
+  msexcel                excel spreadsheet
+
+*
+*EDI*Messages*and*IDOC*types*
+
+  X12  EDIFACT IDOC Type
+  ---  ------- ---------------------
+  830  DELFOR  delfor02
+  862  DELFOR  delfor02
+  862  DELJIT  seqjit03
+  850  ORDERS  orders01
+  860  ORDCHG  orders01
+  860  ORDCHG  email
+  810  INVOIC  /rb04/yp3_invoic02_cu
+  812  -       msexcel
+  820  -       pexr2020
+  824  RECADV  delvry05
+  846  INVRPT  delvry03
+  856  DESADV  delvry07
+  -    APERAK  delvry05
+  -    CONTRL  systat01
+
+*
+: -------------------------------------------------------------------09/06/2022-
+*SESSION*1*
 *Important*Links*
 
 *1.*EDI*Customer*Requests* - Track & Release assigned tasks
@@ -16,19 +85,19 @@ KT Sessions Slides
 .link https://sites.inside-share.bosch.com/sites/000406/default.aspx
 
 *3.*KT-Materials* - Storage of material used during KT Sessions
-https://github.com/bar8tl/_edibbm-kt
+.link https://github.com/bar8tl/_edibbm-kt
 
 Notes:
 In link 2, select the view _"EDI_RBNA"_ to select RBNA mapping specs archived
 
 *
 *Divisions*and*Systems*
-.code edibbm_divsys.txt
+.code edibbm_s01-divsys.txt
 
 *
 *Maquiladora*and*MLB*at*BBM-SAP-SD* _(1/2)_
-.image edibbm_maquiladora.gif 600 991
+.image edibbm_s01-maquiladora.gif 600 991
 
 *
 *Maquiladora*and*MLB*at*BBM-SAP-SD* _(2/2)_
-.image edibbm_mlb.gif 450 900
+.image edibbm_s01-mlb.gif 450 900

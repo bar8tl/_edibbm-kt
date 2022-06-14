@@ -1,0 +1,25 @@
+
+830  DELFOR  delfor02
+862  DELFOR  delfor02
+862  DELJIT  seqjit03
+850  ORDERS  orders01
+860  ORDCHG  orders01
+810  INVOIC  /rb04/yp3_invoic02_cu
+812  
+820  
+824  
+846  
+856  DESADV
+-    APERAK
+-    CONTRL
+-    INVRPT
+-    ORDCHG
+-    RECADV
+
+delvry03
+delvry05
+delvry07
+email
+msexcel
+systat01
+
